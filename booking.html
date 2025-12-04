@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movies</title>
+  <link rel="stylesheet" href="style3.css">
+
+  <!-- Bootstrap & Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+</head>
+<body>
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="left-section">
+      <img src="images/logo.webp" alt="District Logo" style="width: 80px;">
+
+      <div class="location">
+        <i class="bi bi-geo-alt"></i>
+        <div class="location-text">
+          <strong>Perinthalmanna</strong><br>
+          <small>Perinthalmanna, Kerala</small>
+        </div>
+      </div>
+
+      <div class="nav-links">
+        <a href="foryou.html">For you</a>
+        <a href="#">Events</a>
+        <a href="movies.html" class="active">Movies</a>
+      </div>
+    </div>
+
+    <div class="right-section d-flex align-items-center gap-3">
+      <div class="search-bar">
+        <i class="bi bi-search"></i>
+        <input type="text" placeholder="Search for events, movies and restaurants">
+      </div>
+      <div class="profile">
+        <i class="bi bi-person"></i>
+      </div>
+    </div>
+  </nav>
+  
+
+
+
+  <div class="section">
+        <div class="section-image">
+            <i class="bi bi-play-circle-fill" id="play" style="color: rgb(240, 236, 236);"></i>
+            <img src="images/poster.jpg" alt="">
+        </div>
+        <div class="section-info">
+            <div>
+                <h1>Kaantha</h1>
+            </div>
+            <div>
+                <p> <span>UA13+</span> |
+                    <span>Tamil</span> |
+                    <span>2hr 43min</span>
+                </p>
+            </div>
+            <button>View details</button>
+        </div>
+    </div>
+    <div class="date">
+        <div class="date-nov">
+            NOV
+        </div>
+        <div class="date-thu">
+            <span>20</span>
+            <span>Thu</span>
+        </div>
+    </div>
+    <div class="list-btn">
+        <button class="btn-filter">
+            <div><i class="fa-solid fa-sliders" style="font-size: 12px;"></i></div>
+            <div><span style="font-size: 14px;">Filter</span></div>
+            <div><i class="fa-solid fa-angle-down" style="font-size: 12px;"></i></div>
+        </button>
+        <button>
+            <div class="btn-filter">
+                <span style="font-size: 14px;">After 8 PM</span>
+            </div>
+        </button>
+    </div>
+    <div class="seat-info">
+        <div class="black">
+            <span style="background-color: #1e1e20;"></span>
+            <label for="">Available</label>
+        </div>
+        <div class="black">
+            <span style="background-color: #e4d33a;"></span>
+            <label for="">Filling fast</label>
+        </div>
+        <div class="black">
+            <span style="background-color: #e96f49;"></span>
+            <label for="">Almost full</label>
+        </div>
+    </div>
+    <div class="theatre">
+        <div class="theatre-image">
+            <a href=""><img src="images/vismaya.png" alt=""></a>
+        </div>
+        <div class="theatre-text">
+            <div><a href="">Vismaya Cinemas 4K Dolby Atmos, LIC Road, Perinthalmanna</a></div>
+            <div class="span">
+                <p><span style="padding-right: 5px;">1.5 km away</span> |
+                    <span style="padding-left: 5px;">Non-cancellable</span>
+                </p>
+            </div>
+        </div>
+        <div>
+            <i class="bi bi-heart" id="heart"></i>
+        </div>
+    </div>
+    <div class="time">
+        <button>
+            <span style="color:black; font-size: 18px;font-weight: 400;">9:45 PM</span>
+            <span style="color:  #58585b; font-size: 12px;">SCREEN 4</span>
+        </button>
+        <div class="time-hover">
+            <span style="font-size: 15px;font-weight: 500;">PLATINUM</span><br>
+            <span style="font-size: 15px;font-weight: 500;">₹100</span><br>
+            <span style="color: rgb(5, 147, 5);font-weight: 600;">AVAILABLE</span>
+        </div>
+    </div>
+
+    <div class="theatre">
+        <div class="theatre-image">
+            <a href=""><img src="images/mallika.png" alt=""></a>
+        </div>
+        <div class="theatre-text">
+            <div><a href="">Mallika Plex Chithralaya, Angadipuram, Perinthalmanna</a></div>
+            <div class="span">
+                <p><span style="padding-right: 5px;">3.3 km away</span> |
+                    <span style="padding-left: 5px;">Non-cancellable</span>
+                </p>
+            </div>
+        </div>
+        <div>
+            <i class="bi bi-heart" id="heartt"></i>
+        </div>
+    </div>
+    <div class="timeone">
+        <button>
+            <span style="color:black; font-size: 18px;font-weight: 400;">10:15 PM</span>
+            <span style="color:  #58585b; font-size: 12px;">TELA 1</span>
+        </button>
+        <div class="time-hoverone">
+            <span style="font-size: 15px;font-weight: 500;">EXECUTIVE</span><br>
+            <span style="font-size: 15px;font-weight: 500;">₹100</span><br>
+            <span style="color: rgb(5, 147, 5);font-weight: 600;">AVAILABLE</span>
+        </div>
+    </div>
+
+    <div class="scroll">
+        <span class="cinema">Explore Latest Movies in Perintalmanna by Language</span>
+        <div class="btn-list">
+            <div class="listt">
+                <button>
+                    <div class="btn-filter-one">
+                        <span style="font-size: 14px;">Hindi Movies</span>
+                    </div>
+                </button>
+                <button>
+                    <div class="btn-filter-one">
+                        <span style="font-size: 14px;">English Movies</span>
+                    </div>
+                </button>
+                <button>
+                    <div class="btn-filter-one">
+                        <span style="font-size: 14px;">Telugu Movies</span>
+                    </div>
+                </button>
+                <button>
+                    <div class="btn-filter-one">
+                        <span style="font-size: 14px;">Tamil Movies</span>
+                    </div>
+                </button>
+                <button>
+                    <div class="btn-filter-one">
+                        <span style="font-size: 14px;">Kannada Movies</span>
+                    </div>
+                </button>
+                <button>
+                    <div class="btn-filter-one">
+                        <span style="font-size: 14px;">Bengali Movies</span>
+                    </div>
+                </button> <button>
+                    <div class="btn-filter-one">
+                        <span style="font-size: 14px;">Bhojpuri Movies</span>
+                    </div>
+                </button>
+                <button>
+                    <div class="btn-filter-one">
+                        <span style="font-size: 14px;">Malayalam Movies</span>
+                    </div>
+                </button>
+                <button>
+                    <div class="btn-filter-one">
+                        <span style="font-size: 14px;">Odia Movies</span>
+                    </div>
+                </button>
+                <!-- <button>
+                    <div class="btn-filter-one">
+                        <span style="font-size: 14px;">Marathi Movies</span>
+                    </div>
+                </button> -->
+
+            </div>
+        </div>
+    </div>
+
+    <!-- -----second----- -->
+    <div class="scroll">
+        <span class="cinema">Explore Latest Movies in Perintalmanna by Genre</span>
+        <div class="btn-list">
+            <div class="listt">
+                <button>
+                    <div class="btn-filter-one">
+                        <span style="font-size: 14px;">Comedy Movies</span>
+                    </div>
+                </button>
+                <button>
+                    <div class="btn-filter-one">
+                        <span style="font-size: 14px;">Action Movies</span>
+                    </div>
+                </button>
+                <button>
+                    <div class="btn-filter-one">
+                        <span style="font-size: 14px;">Drama Movies</span>
+                    </div>
+                </button>
+                <button>
+                    <div class="btn-filter-one">
+                        <span style="font-size: 14px;">Romance Movies</span>
+                    </div>
+                </button>
+                <button>
+                    <div class="btn-filter-one">
+                        <span style="font-size: 14px;">Horror Movies</span>
+                    </div>
+                </button>
+                <button>
+                    <div class="btn-filter-one">
+                        <span style="font-size: 14px;">Thriller Movies</span>
+                    </div>
+                </button> <button>
+                    <div class="btn-filter-one">
+                        <span style="font-size: 14px;">Crime Movies</span>
+                    </div>
+                </button>
+                <button>
+                    <div class="btn-filter-one">
+                        <span style="font-size: 14px;">Mystery Movies</span>
+                    </div>
+                </button>
+                <button>
+                    <div class="btn-filter-one">
+                        <span style="font-size: 14px;">Biography Movies</span>
+                    </div>
+                </button>
+                <!-- <button>
+                    <div class="btn-filter-one">
+                        <span style="font-size: 14px;">Marathi Movies</span>
+                    </div>
+                </button> -->
+
+            </div>
+        </div>
+    </div>
+
+    <!-- -----third---- -->
+    <div class="scroll" style="padding-bottom: 5%;">
+        <span class="cinema">Now Showing in Perintalmanna</span>
+        <div class="btn-list">
+            <div class="listts">
+                <button>
+                    <div class="btn-filter-one">
+                        <span style="font-size: 14px;">Vilaayath Budha</span>
+                    </div>
+                </button>
+                <button>
+                    <div class="btn-filter-one">
+                        <span style="font-size: 14px;">Kaantha</span>
+                    </div>
+                </button>
+                <button>
+                    <div class="btn-filter-one">
+                        <span style="font-size: 14px;">Eko</span>
+                    </div>
+                </button>
+                <button>
+                    <div class="btn-filter-one">
+                        <span style="font-size: 14px;">Sisu:Road to Revenge</span>
+                    </div>
+                </button>
+                <button>
+                    <div class="btn-filter-one">
+                        <span style="font-size: 14px;">Aavani</span>
+                    </div>
+                </button>
+                <button>
+                    <div class="btn-filter-one">
+                        <span style="font-size: 14px;">Theeyavar Kulai Nadunga</span>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+   <!-- Footer -->
+<footer class="footer-section">
+
+  <div class="container">
+
+    <div class="row align-items-center">
+
+      <!-- Left: Logo + Menu -->
+      <div class="col-md-9 d-flex flex-column flex-md-row align-items-md-center mb-4 mb-md-0">
+
+        <div class="footer-logo me-md-5 mb-4 mb-md-0">
+          <img src="images/dis.svg" alt="logo">
+        </div>
+
+        <div class="footer-menu d-flex flex-wrap">
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Contact Us</a>
+          <a href="#">List your events</a>
+        </div>
+
+      </div>
+
+      <!-- Right: QR Code -->
+      <div class="col-md-3 text-center">
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=downloadapp" 
+             class="img-fluid mb-2" 
+             style="width: 130px;">
+        <div class="text-light small">Scan to download the app</div>
+      </div>
+
+    </div>
+
+    <hr class="border-secondary mt-4">
+
+    <div class="row mt-3">
+
+      <div class="col-md-9">
+        <p class="footer-bottom-text">
+          By accessing this page, you confirm that you have read, understood, and agreed to our 
+          Terms of Service, Cookie Policy, Privacy Policy, and Content Guidelines. 
+          All rights reserved.
+        </p>
+      </div>
+
+      <div class="col-md-3 text-md-end footer-social mt-3 mt-md-0">
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-twitter-x"></i>
+        <i class="bi bi-youtube"></i>
+      </div>
+
+    </div>
+
+  </div>
+
+</footer>
+    
+</body>
+</html>
